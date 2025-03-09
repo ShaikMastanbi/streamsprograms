@@ -5,7 +5,8 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class FrequencyOfChar {
+public class
+FrequencyOfChar {
     public static void main(String args[]){
         String s="Hello world";
         String Vowels="aeiouAEIOU";

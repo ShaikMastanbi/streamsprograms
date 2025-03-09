@@ -12,6 +12,9 @@ public class SortMap {
         map.put("basheer",31);
         map.put("abhi",18);
         map.entrySet().stream().sorted(Map.Entry.comparingByKey()).forEach(System.out::println);
+        System.out.println("---------------");
+
+        map.forEach((key,value)->System.out.println(key+"->"+value));
 
 
     }
